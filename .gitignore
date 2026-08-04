@@ -54,5 +54,3 @@ build/
 # Node dependencies
 node_modules/
 
-# Nested repository
-echo-dub-ai/
