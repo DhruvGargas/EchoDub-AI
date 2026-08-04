@@ -1,0 +1,58 @@
+# ==========================
+# Python
+# ==========================
+
+venv/
+.env
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# IDE
+# ==========================
+
+.vscode/
+.idea/
+
+# ==========================
+# Operating System
+# ==========================
+
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Uploads & Generated Files
+# ==========================
+
+uploads/*
+!uploads/.gitkeep
+
+outputs/*
+!outputs/.gitkeep
+
+# ==========================
+# Logs
+# ==========================
+
+*.log
+
+# ==========================
+# Build / Cache
+# ==========================
+
+dist/
+build/
+*.egg-info/
+
+# Node dependencies
+node_modules/
+
+# Nested repository
+echo-dub-ai/
